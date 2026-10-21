@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840" role="img" aria-label="Decision tree fitting on 8125 labeled bean samples, selecting complexity using validation">
+<rect x="0" y="0" width="1200" height="840" rx="24" fill="#FEFAFC" stroke="#E6CBD6" stroke-width="1" />
+<text x="56" y="67" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" fill="#28242B" >How the decision tree learns</text>
+<text x="56" y="113" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="23" font-weight="400" fill="#766C76" >The training algorithm searches feature thresholds that separate known varieties.</text>
+<line x1="56" y1="137" x2="1145" y2="137" stroke="#E6CBD6" stroke-width="2"/>
+<text x="60" y="197" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#985476" letter-spacing="1.3" >TRAINING INPUT</text>
+<rect x="60" y="220" width="330" height="324" rx="17" fill="#FBECF2" stroke="#E6CBD6" stroke-width="2" />
+<text x="85" y="276" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="31" font-weight="700" fill="#28242B" >8,125 labeled beans</text>
+<text x="85" y="324" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="26" font-weight="500" fill="#766C76" >16 measured features</text>
+<text x="85" y="360" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="26" font-weight="500" fill="#766C76" >7 bean varieties</text>
+<line x1="85" y1="396" x2="365" y2="396" stroke="#E6CBD6" stroke-width="2"/>
+<text x="85" y="437" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#985476" >Known examples</text>
+<text x="85" y="472" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="24" font-weight="500" fill="#766C76" >provide the answers</text>
+<line x1="397" y1="365" x2="470" y2="365" stroke="#985476" stroke-width="4"/>
+<path d="M 460 354 L 472 365 L 460 376" fill="none" stroke="#985476" stroke-width="4" stroke-linejoin="round"/>
+<text x="506" y="197" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#985476" letter-spacing="1.3" >FITTING</text>
+<rect x="495" y="220" width="315" height="324" rx="17" fill="#FFFFFF" stroke="#E6CBD6" stroke-width="2" />
+<text x="520" y="270" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="31" font-weight="700" fill="#28242B" >Decision tree</text>
+<text x="520" y="314" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="25" font-weight="500" fill="#766C76" >Find useful splits</text>
+<text x="520" y="350" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="25" font-weight="500" fill="#766C76" >of image features</text>
+<rect x="522" y="388" width="260" height="98" rx="12" fill="#EEF4FD" stroke="none" stroke-width="2" />
+<text x="540" y="423" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#4F78A5" >Complexity control</text>
+<text x="540" y="458" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="21" font-weight="500" fill="#766C76" >Maximum tree depth</text>
+<line x1="820" y1="365" x2="875" y2="365" stroke="#985476" stroke-width="4"/>
+<path d="M 865 354 L 877 365 L 865 376" fill="none" stroke="#985476" stroke-width="4" stroke-linejoin="round"/>
+<text x="902" y="197" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#985476" letter-spacing="1.3" >FITTED MODEL</text>
+<rect x="895" y="220" width="251" height="324" rx="17" fill="#EEF4FD" stroke="#E6CBD6" stroke-width="2" />
+<text x="916" y="271" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="31" font-weight="700" fill="#4F78A5" >Depth 10</text>
+<text x="916" y="317" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" fill="#28242B" >270 terminal</text>
+<text x="916" y="348" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" fill="#28242B" >leaves</text>
+<line x1="918" y1="387" x2="1117" y2="387" stroke="#E6CBD6" stroke-width="2"/>
+<text x="916" y="429" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="22" font-weight="500" fill="#766C76" >Predicts one</text>
+<text x="916" y="456" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="22" font-weight="500" fill="#766C76" >of 7 varieties</text>
+<rect x="60" y="587" width="1085" height="160" rx="16" fill="#FFF9EE" stroke="#F3E1BE" stroke-width="2" />
+<text x="90" y="637" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="27" font-weight="600" fill="#28242B" >Training fits the known answers; validation checks which complexity transfers.</text>
+<text x="90" y="692" font-family="Lexend, Segoe UI, Arial, sans-serif" font-size="22" font-weight="500" fill="#766C76" >Here, depth 10 is chosen from validation performance — not because it fits training perfectly.</text>
+</svg>
